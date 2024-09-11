@@ -1,4 +1,4 @@
-# Voice Command Recognition with Custom Dataset and Quantization
+# Voice Command Recognition with Custom Dataset and Quantization 
 
 ## Project Overview
 This project focuses on adapting a pre-trained sequential Convolutional Neural Network (CNN) model for recognizing custom voice commands. The model is fine-tuned using a personalized dataset of voice recordings and optimized with quantization-aware training to balance performance and computational efficiency for deployment on resource-constrained devices.
