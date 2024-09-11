@@ -13,12 +13,7 @@ This project focuses on adapting a pre-trained sequential Convolutional Neural N
    - Includes 35 distinct command categories such as 'yes', 'no', 'up', 'down', etc.
 
 ## Model Architecture
-- **Input Layer**: Accepts spectrogram representations of audio.
-- **Preprocessing Layers**: Resizing and normalization for efficient processing.
-- **Convolutional Layers**: Multiple layers with increasing filters to capture complex patterns.
-- **Pooling and Regularization**: Reduces spatial dimensions and prevents overfitting.
-- **Fully Connected Layers**: Processes extracted features for final classification.
-- **Output Layer**: Highlights and classifies the spoken word.
+The model architecture comprises an input layer that accepts spectrogram representations of audio, followed by preprocessing layers for resizing and normalization to standardize the input data. It includes multiple convolutional layers with progressively increasing numbers of filters to capture complex patterns and features in the audio signals. Pooling and regularization layers are employed to reduce spatial dimensions and prevent overfitting, while fully connected layers process the extracted features for final classification. The output layer highlights and classifies the spoken word, enabling effective voice command recognition.
 
 ## Fine-Tuning and Quantization
 - **Fine-Tuning**: The model was fine-tuned on the custom dataset with 10 epochs. Key parameters included model checkpointing and early stopping to prevent overfitting.
