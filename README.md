@@ -2,6 +2,9 @@
 
 ## Project Overview
 This project focuses on adapting a pre-trained SCNN and M5 CNN model for recognizing custom voice commands. The model is fine-tuned using a personalized dataset of voice recordings and optimized with quantization-aware training to balance performance and computational efficiency for deployment on resource-constrained devices.
+Custom Data is Available at: https://drive.google.com/file/d/1OJBVVYhfUzckO9hCBaQvCRVXa24NN31b/view?usp=sharing
+Live Demo: https://gradio.app/MyVoiceRecognizer
+
 
 ## Datasets
 1. **Speech Commands Dataset (Warden, 2018)**:
